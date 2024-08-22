@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-just-parallax": "^3.1.16",
     "react-router-dom": "^6.26.1",
     "scroll-lock": "^2.1.5"
   },
@@ -27,7 +28,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10",
+    "tailwindcss": "^3.2.0",
     "vite": "^5.4.1"
   }
 }
