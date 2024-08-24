@@ -8,7 +8,7 @@ import ClipPath from "../assets/svg/ClipPath";
 const Benefits = () => {
   return (
     <Section id="features">
-      <div className="container relative z-2">
+      <div className="container mt-10 relative z-2">
         <Heading
           classNames="md:max-w-md lg:max-w-2xl"
           title="Chat Smarter, Not Harder with Brainwave!"

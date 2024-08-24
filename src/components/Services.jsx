@@ -12,8 +12,8 @@ import Section from "./Section";
 
 const Services = () => {
   return (
-    <Section id="services">
-      <div className="container">
+    <Section id="how-to-use">
+      <div className="container mt-10">
         <Heading
           title="Generative AI Made for Creators!"
           text="Brainwave unlocks the potential of AI-powered applications"
@@ -106,7 +106,13 @@ const Services = () => {
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img src={service3} className="w-full h-full object-cover" width={520} height={400} alt="service3" />
+                <img
+                  src={service3}
+                  className="w-full h-full object-cover"
+                  width={520}
+                  height={400}
+                  alt="service3"
+                />
                 <VideoChatMessage />
                 <VideoBar />
               </div>
